@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  padding-top: 50px;
+  background-color: #161717;
+}
+
+.container {
+  width: 450px;
+  margin: auto;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Social buttons____________________________________________________ */
+
+.social-btns {
+  display: flex;
+  gap: 20px;
+  align-self: flex-start;
+}
+/* -------- google btn -------- */
+.google-btn {
+  height: 40px;
+  padding: 4px;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+}
+
+.google-btn:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
+
+.google-btn picture {
+  width: 30px;
+  height: 30px;
+  border-radius: 3px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.google-btn picture img {
+  width: 75%;
+}
+
+.google-btn span {
+  color: white;
+  padding: 15px;
+  font-weight: 500;
+}
+
+/* -------- twitter btn -------- */
+
+.twitter-btn {
+  height: 40px;
+  padding: 4px;
+  background-color: #fff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.twitter-btn:hover {
+  border: 1px solid grey;
+}
+
+.twitter-btn picture {
+  width: 30px;
+  height: 30px;
+  border-radius: 3px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.twitter-btn picture img {
+  width: 75%;
+}
+
+/* Separator____________________________________________________ */
+
+.separator {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.separator hr {
+  flex-grow: 1;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+.separator span {
+  color: #8b8b8b;
+}
+
+/* Form____________________________________________________ */
+
+form {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.section-user {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+
+label {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+label span {
+  font-weight: 700;
+}
+
+label input {
+  width: 80%;
+  background-color: #212121;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  outline: none;
+  font-size: 14pt;
+}
+
+#email {
+  width: 90%;
+}
+
+label input:hover {
+  background-color: #454045;
+  border: 1px solid #f3f4f5;
+  box-shadow: 0 0 4px #eb58ff4f;
+}
+
+label input:focus {
+  background-color: white;
+  border: 1px solid #f3f4f5;
+  box-shadow: 0 0 4px #eb58ff4f;
+}
+
+.checkbox-label {
+  display: flex;
+  flex-direction: row;
+}
+
+.checkbox-label input[type='checkbox'] {
+  width: 28px;
+}
+
+.submit-btn {
+  width: 97%;
+  background-color: #ea4c89;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  border: none;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  align-self: start;
+}
